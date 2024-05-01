@@ -15,6 +15,7 @@ class HomePage extends StatelessWidget {
       extendBodyBehindAppBar: true,
       drawer: const Drawer(),
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Colors.transparent,
         //backgroundColor: const Color(0xFFdba07b),
         title: const Text('Astronomy', style: TextStyle(fontSize: 20),),
